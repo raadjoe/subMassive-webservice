@@ -82,7 +82,7 @@ Please find the complete dataset on <a href="https://zenodo.org/record/3693802">
 
 
 	<div class="tab">
-	  <button class="tablinks" onclick="openCity(event, 'subClassOf')">subClassOf</button>
+	  <button class="tablinks" id="first-tab"  onclick="openCity(event, 'subClassOf')">subClassOf</button>
 	  <button class="tablinks" onclick="openCity(event, 'subPropertyOf')">subPropertyOf</button>
 	  <!-- <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
 	</div>
@@ -248,6 +248,8 @@ Please find the complete dataset on <a href="https://zenodo.org/record/3693802">
 	</div> -->
 
 	<script>
+	document.getElementById("first-tab").click();
+
 	function openCity(evt, cityName) {
 	  var i, tabcontent, tablinks;
 	  tabcontent = document.getElementsByClassName("tabcontent");
@@ -261,6 +263,7 @@ Please find the complete dataset on <a href="https://zenodo.org/record/3693802">
 	  document.getElementById(cityName).style.display = "block";
 	  evt.currentTarget.className += " active";
 	}
+
 	</script>
 
 

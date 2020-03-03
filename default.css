@@ -610,6 +610,7 @@
 	  overflow: hidden;
 	  border: 1px solid #ccc;
 	  background-color: #FFFFFF;
+		 justify-content: center;
 	}
 
 	/* Style the buttons inside the tab */
