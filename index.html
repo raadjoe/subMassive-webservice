@@ -43,35 +43,57 @@ Released   : 20140309
 	</div>
 	</div> -->
 	<div id="banner">
-		<div class="container">
+		<div class="container" >
 			<div class="title">
 				<h2>subMassive.cc</h2>
-				<span class="byline">Resolving Cyclic Relations in Very Large Knowledge Graphs</span> </div>
+				<!-- <span class="byline">Resolving Cycles in Very Large Knowledge Graphs</span>  -->
+			</div>
+
 			<!-- <ul class="actions">
 				<li><a href="#" class="button">Etiam posuere</a></li>
 			</ul> -->
 		</div>
+<div class="shuai">
+	<p>
+Please find the complete dataset on <a href="https://zenodo.org/record/3693802">Zenodo</a> and <a href="https://krr.triply.cc/krr/SUBMASSIVE/graphs">Triply</a> and the source-code on <a href="https://github.com/MaestroGraph">Github</a>.
+<br>The cycle-free property was verified by the <a href="https://networkx.github.io/">networkx</a> software.
+	<br>For more information, please read <a href="./paper.pdf">this paper</a> or contact shuai.wang@vu.nl. <br>
+</p>
+		<p> Present to you by Shuai Wang, Peter Bloem, Joe Raad, and Frank van Harmelen.<br>Vrije Universiteit, Amsterdam </p>
+</div>
+		<!-- <button>
+		  <img src="images/VU-logo.png" alt="">
+		  Submit
+		</button> -->
 	</div>
+
+
+
 	<div id="extra" class="container">
 		<div class="title">
-			<h2>Original Subgraph Dataset</h2>
-			<span class="byline">Dataset of all rdfs:subClassOf statements extracted from the 2015 LOD Laundromat crawl</span> </div>
-		<div id="three-column">
+			<h3>Original Subgraph Dataset</h3>
+			<span class="byline">Dataset of all <b> rdfs:subClassOf </b> statements extracted from the latest LOD Laundromat crawl</span> </div>
+		<div  class="center">
+			<a href="https://zenodo.org/record/3693802/files/subC-all.nt?download=1">
 			<div class="boxA">
 				<div class="box"> <span class="fa fa-cloud-download"></span>
 					<p>Download the dataset in RDF.<br>(refer to the ZENODO resource)</p>
 				</div>
+
 			</div>
+			</a>
+				<a href="https://krr.triply.cc/krr/SUBMASSIVE/table?graph=https%3A%2F%2Fkrr.cs.vu.nl%2FSUBMASSIVE%2FsubC-all">
 			<div class="boxB">
 				<div class="box"> <span class="fa fa-cogs"></span>
 					<p>Browse the dataset online.<br>(refer to the KRR Triply instance)</p>
 				</div>
 			</div>
-			<div class="boxC">
+		</a>
+			<!-- <div class="boxC">
 				<div class="box"> <span class="fa fa-user"></span>
 					<p>More info about the data<br>(refer to some technical report)</p>
 				</div>
-			</div>
+			</div> -->
 		</div>
 		<!-- <ul class="actions">
 			<li><a href="#" class="button">Etiam posuere</a></li>
@@ -80,24 +102,120 @@ Released   : 20140309
 	<hr>
 	<div id="extra" class="container">
 		<div class="title">
-			<h2>Cycle-Free Subgraph Dataset</h2>
-			<span class="byline">Dataset of all rdfs:subClassOf statements extracted from the 2015 LOD Laundromat crawl after resolving all cycles</span> </div>
-		<div id="three-column">
+			<h3>Cycle-Free Subgraph Dataset</h3>
+			<span class="byline">Dataset of all <b> rdfs:subClassOf </b> statements extracted from the latest LOD Laundromat crawl after <b> automatic </b> resolving all cycles</span> </div>
+		<div class="center">
+				<a href="https://zenodo.org/record/3693802/files/refined-subC-FA.nt?download=1">
 			<div class="boxA">
 				<div class="box"> <span class="fa fa-cloud-download"></span>
 					<p>Download the dataset in RDF.<br>(refer to the ZENODO resource)</p>
 				</div>
 			</div>
+			</a>
+				<a href="https://krr.triply.cc/krr/SUBMASSIVE/table?graph=https%3A%2F%2Fkrr.cs.vu.nl%2FSUBMASSIVE%2Frefined-subC-FA">
 			<div class="boxB">
 				<div class="box"> <span class="fa fa-cogs"></span>
 					<p>Browse the dataset online.<br>(refer to the KRR Triply instance)</p>
 				</div>
 			</div>
-			<div class="boxC">
+		</a>
+			<!-- <div class="boxC">
 				<div class="box"> <span class="fa fa-user"></span>
 					<p>More info about the data<br>(refer to some technical report)</p>
 				</div>
+			</div> -->
+		</div>
+		<!-- <ul class="actions">
+			<li><a href="#" class="button">Etiam posuere</a></li>
+		</ul> -->
+	</div>
+	<hr>
+	<div id="extra" class="container">
+		<div class="title">
+			<h3>Cycle-Free Subgraph Dataset</h3>
+			<span class="byline">Dataset of all <b> rdfs:subClassOf </b> statements extracted from the latest LOD Laundromat crawl after <b> semi-automatic </b> resolving all cycles</span> </div>
+		<div class="center">
+				<a href="https://zenodo.org/record/3693802/files/refined-subC-SA.nt?download=1">
+			<div class="boxA">
+				<div class="box"> <span class="fa fa-cloud-download"></span>
+					<p>Download the dataset in RDF.<br>(refer to the ZENODO resource)</p>
+				</div>
 			</div>
+			</a>
+				<a href="https://krr.triply.cc/krr/SUBMASSIVE/table?graph=https%3A%2F%2Fkrr.cs.vu.nl%2FSUBMASSIVE%2Frefined-subC-SA">
+			<div class="boxB">
+				<div class="box"> <span class="fa fa-cogs"></span>
+					<p>Browse the dataset online.<br>(refer to the KRR Triply instance)</p>
+				</div>
+			</div>
+		</a>
+			<!-- <div class="boxC">
+				<div class="box"> <span class="fa fa-user"></span>
+					<p>More info about the data<br>(refer to some technical report)</p>
+				</div>
+			</div> -->
+		</div>
+		<!-- <ul class="actions">
+			<li><a href="#" class="button">Etiam posuere</a></li>
+		</ul> -->
+	</div>
+	<hr>
+	<div id="extra" class="container">
+		<div class="title">
+			<h3>Original Subgraph Dataset</h3>
+			<span class="byline">Dataset of all <b>rdfs:subPropertyOf </b> statements extracted from the latest LOD Laundromat crawl</span> </div>
+		<div  class="center">
+			<a href="https://zenodo.org/record/3693802/files/subP-all.nt?download=1">
+			<div class="boxA">
+				<div class="box"> <span class="fa fa-cloud-download"></span>
+					<p>Download the dataset in RDF.<br>(refer to the ZENODO resource)</p>
+				</div>
+
+			</div>
+			</a>
+				<a href="https://krr.triply.cc/krr/SUBMASSIVE/table?graph=https%3A%2F%2Fkrr.cs.vu.nl%2FSUBMASSIVE%2FsubP-all">
+			<div class="boxB">
+				<div class="box"> <span class="fa fa-cogs"></span>
+					<p>Browse the dataset online.<br>(refer to the KRR Triply instance)</p>
+				</div>
+			</div>
+		</a>
+			<!-- <div class="boxC">
+				<div class="box"> <span class="fa fa-user"></span>
+					<p>More info about the data<br>(refer to some technical report)</p>
+				</div>
+			</div> -->
+		</div>
+		<!-- <ul class="actions">
+			<li><a href="#" class="button">Etiam posuere</a></li>
+		</ul> -->
+	</div>
+
+	<hr>
+	<div id="extra" class="container">
+		<div class="title">
+			<h3>Cycle-Free Subgraph Dataset</h3>
+			<span class="byline">Dataset of all <b> rdfs:subPropertyOf</b> statements extracted from the latest LOD Laundromat crawl after <b>semi-automatic</b> resolving all cycles</span> </div>
+		<div class="center">
+				<a href="https://zenodo.org/record/3693802/files/refined-subP.nt?download=1">
+			<div class="boxA">
+				<div class="box"> <span class="fa fa-cloud-download"></span>
+					<p>Download the dataset in RDF.<br>(refer to the ZENODO resource)</p>
+				</div>
+			</div>
+			</a>
+				<a href="https://krr.cs.vu.nl/SUBMASSIVE/refined-subP">
+			<div class="boxB">
+				<div class="box"> <span class="fa fa-cogs"></span>
+					<p>Browse the dataset online.<br>(refer to the KRR Triply instance)</p>
+				</div>
+			</div>
+		</a>
+			<!-- <div class="boxC">
+				<div class="box"> <span class="fa fa-user"></span>
+					<p>More info about the data<br>(refer to some technical report)</p>
+				</div>
+			</div> -->
 		</div>
 		<!-- <ul class="actions">
 			<li><a href="#" class="button">Etiam posuere</a></li>
@@ -106,9 +224,9 @@ Released   : 20140309
 	<hr>
 	<div id="page" class="container">
 		<div class="title">
-			<h2>Acknowledgments</h2>
-			<span class="byline">This work is part of the MaestroGraph project funded by the NWO TOP grant.</span> </div>
-		<p><h3>Shuai Wang, Peter Bloem, Joe Raad, and Frank van Harmelen.<br>Vrije Universiteit, Amsterdam</h3></p>
+			<h3>Acknowledgments</h3>
+			<span class="byline">This work is a part of the MaestroGraph project funded by the NWO TOP grant.</span> </div>
+
 	</div>
 </div>
 <div id="copyright" class="container">
